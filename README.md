@@ -1,5 +1,9 @@
 # Ham Radio AX.25 stack setup
 
+If you want to automatically set up the AX.25 stack, run `bash sudo bash setup.sh` and answer all prompts (only tested with Debian 13 and KDE Plasma). This sets it up with 1200 baud automatically.
+
+If you want to manually set up the stack, follow these instructions:
+
 Assuming you have Debian 13, follow these steps:
 
 ```bash
