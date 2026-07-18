@@ -42,3 +42,5 @@ sudo setcap cap_net_admin+ep /usr/sbin/soundmodem
 
 and retrying the command before
 now you should see "sm0" when you run sudo ifconfig. now your ham radio is a network interface if your audio input and output is connected to your radio
+
+To run the network interface thingy, run `bash /sbin/soundmodem -v 5 -c AX25`. This will make very nice sounding 1200 baud noises that may scare you if you have your volume set to really loud.
